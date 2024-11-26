@@ -10,7 +10,6 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 public class ProductItem {
-
     private String productName;
     private double price;
     private String description;

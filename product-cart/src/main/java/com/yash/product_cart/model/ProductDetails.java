@@ -1,4 +1,4 @@
-package com.yash.product_rating.model;
+package com.yash.product_cart.model;
 
 
 import lombok.AllArgsConstructor;
@@ -13,6 +13,5 @@ import lombok.ToString;
 public class ProductDetails {
     private int productId;
     private String name;
+    private String productRating;
 }
-
-

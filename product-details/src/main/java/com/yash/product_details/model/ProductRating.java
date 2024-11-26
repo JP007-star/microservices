@@ -1,6 +1,5 @@
 package com.yash.product_details.model;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,8 +9,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class ProductDetails {
-    private int productId;
-    private String name;
-    private String productRating;
+public class ProductRating {
+    private String productId;
+    private double rating;
 }
